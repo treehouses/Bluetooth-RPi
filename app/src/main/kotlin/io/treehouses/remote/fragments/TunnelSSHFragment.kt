@@ -103,7 +103,7 @@ class TunnelSSHFragment : BaseTunnelSSHFragment(), View.OnClickListener {
                 builder.setPositiveButton("Confirm") { dialog, _ ->
                     val parts = portsName!![position].split(":")[0]
                     writeMessage(getString(R.string.TREEHOUSES_SSHTUNNEL_REMOVE_HOST, parts))
-                    addHostButton!!.text = "deleting host ....."
+                    addHostButton!!.text = "deleting host..."
                     portList!!.isEnabled = false; addHostButton!!.isEnabled = false
                     dialog.dismiss()
                 }
