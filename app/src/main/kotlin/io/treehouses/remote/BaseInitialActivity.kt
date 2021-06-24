@@ -20,6 +20,7 @@ import io.treehouses.remote.databinding.ActivityInitial2Binding
 import io.treehouses.remote.ui.system.SystemFragment
 import io.treehouses.remote.ui.home.HomeFragment
 import io.treehouses.remote.ui.network.NetworkFragment
+import io.treehouses.remote.ui.sshconfig.SSHConfigFragment
 import io.treehouses.remote.ui.services.ServicesFragment
 import io.treehouses.remote.ui.status.StatusFragment
 import io.treehouses.remote.utils.LogUtils
