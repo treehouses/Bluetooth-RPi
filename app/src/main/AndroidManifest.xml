@@ -53,7 +53,8 @@
             android:launchMode="singleTop"
             android:theme="@style/Theme.AppCompat"
             android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
-        <service android:name=".utils.GPSService" />
+        <service android:name=".utils.GPSService"
+            android:foregroundServiceType="location"/>
 
         <activity
             android:name=".InitialActivity"
